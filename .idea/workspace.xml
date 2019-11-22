@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53790666-59d9-42e3-9f22-63762d4e20e2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1SPYvW60SFXEWLlezcQPHQgjRiZ" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Node.js/node.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../Node.js/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebStormProjects\lesson 9.7" />
+      <recent name="D:\WebStormProjects\lesson 5.1" />
+      <recent name="D:\WebStormProjects\lesson 1.1" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.index911.js">
+    <configuration name="index82.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/WebStormProjects/lesson 8.2/index82.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index71.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson 7.1/index71.js" working-dir="$PROJECT_DIR$/lesson 7.1">
+      <method v="2" />
+    </configuration>
+    <configuration name="index82.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson 8.2/index82.js" working-dir="$PROJECT_DIR$/lesson 8.2">
+      <method v="2" />
+    </configuration>
+    <configuration name="index911.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson 9.11/index911.js" working-dir="$PROJECT_DIR$/lesson 9.11">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lesson 1.1/index.js" working-dir="$PROJECT_DIR$/lesson 1.1">
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson_6.2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$USER_HOME$/AppData/Local/Temp/Rar$DRa10772.11018/lesson_6.2.js" working-dir="$USER_HOME$/AppData/Local/Temp/Rar$DRa10772.11018">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.index911.js" />
+        <item itemvalue="Node.js.index82.js" />
+        <item itemvalue="JavaScript Debug.index82.html" />
+        <item itemvalue="Node.js.index71.js" />
+        <item itemvalue="Node.js.lesson_6.2.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53790666-59d9-42e3-9f22-63762d4e20e2" name="Default Changelist" comment="" />
+      <created>1571466931505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571466931505</updated>
+      <workItem from="1571466949802" duration="1616000" />
+      <workItem from="1571468946707" duration="5574000" />
+      <workItem from="1571593579718" duration="5473000" />
+      <workItem from="1571679204843" duration="16870000" />
+      <workItem from="1571771838847" duration="7066000" />
+      <workItem from="1571845397194" duration="13747000" />
+      <workItem from="1571944607623" duration="7410000" />
+      <workItem from="1571982154722" duration="2625000" />
+      <workItem from="1572284694524" duration="12808000" />
+      <workItem from="1572327665575" duration="2954000" />
+      <workItem from="1572637373124" duration="7434000" />
+      <workItem from="1572677815213" duration="8175000" />
+      <workItem from="1572720946980" duration="1933000" />
+      <workItem from="1572801905798" duration="640000" />
+      <workItem from="1573051880870" duration="4763000" />
+      <workItem from="1573503754038" duration="7454000" />
+      <workItem from="1573881579348" duration="8351000" />
+      <workItem from="1573921404727" duration="9977000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$USER_HOME$/AppData/Local/Temp/Rar$DRa10772.11018/lesson_6.2.js</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

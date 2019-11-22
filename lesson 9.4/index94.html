@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Киноучёт</title>
+    <link rel="stylesheet" href="style94.css">
+    <script src="index94.js"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            for (let category of categories)
+            {
+                const newEl = document.createElement("div");
+                newEl.classList.add("category");
+                newEl.innerText = category;
+                newEl.addEventListener("click", function () {onCategoryChoice(category)});
+                document.querySelector(".categories").appendChild(newEl);
+
+            }
+        });
+
+        function onCategoryChoice(categoryName)
+        {
+            document.querySelector(".films").innerHTML = "";
+            const films = getFilmsByCategory(categoryName);
+            for (let film of films)
+            {
+                const newEl = document.createElement("div");
+                newEl.classList.add("film");
+                newEl.innerHTML = `<div class = "film-name"> ${film.name}</div>`;
+                newEl.addEventListener("click",function () {
+
+                    console.log(film.name);
+
+                    newEl.innerHTML += '<div class = "film-comments">films clicked</div>';
+
+                });
+                document.querySelector(".films").appendChild(newEl);
+
+            }
+        }
+
+    </script>
+</head>
+<body>
+<section>
+    <div class="categories">
+        <!-- <div class="category" onclick="onCategoryChoice('Юмор')">Юмор</div>
+         <div class="category" onclick="onCategoryChoice('Хоррор')">Хоррор</div> -->
+    </div>
+    <div class="films">
+
+    </div>
+</section>
+</body>
+</html>

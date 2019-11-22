@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Киноучёт</title>
+    <link rel="stylesheet" href="style95.css">
+    <script src="index95.js"></script>
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            for (let category of categories)
+            {
+                const newEl = document.createElement("div");
+                newEl.classList.add("category");
+                newEl.innerText = category;
+                newEl.addEventListener("click", function () {onCategoryChoice(category)});
+                document.querySelector(".categories").appendChild(newEl);
+
+            }
+        });
+
+        function getFilmComments(filmName) {
+            const film = films.filter(f => f.name === filmName)[0];
+            return film.comments;
+        }
+
+        function onCategoryChoice(categoryName)
+        {
+            document.querySelector(".films").innerHTML = "";
+            const films = getFilmsByCategory(categoryName);
+            for (let film of films)
+            {
+                const newEl = document.createElement("div");
+                newEl.classList.add("film");
+                newEl.innerHTML = `<div class = "film-name"> ${film.name}</div>`;
+                newEl.addEventListener("click",function () {
+
+                    const comments = getFilmComments(film.name);
+                    let s = "";
+                    comments.forEach(c => (s += `<div class="comment"> ${c.text} </div>`));
+                    newEl.innerHTML += `<div class = "film-comments">${s}</div>`;
+
+                });
+                document.querySelector(".films").appendChild(newEl);
+
+            }
+        }
+
+    </script>
+</head>
+<body>
+<section>
+    <div class="categories">
+        <!-- <div class="category" onclick="onCategoryChoice('Юмор')">Юмор</div>
+         <div class="category" onclick="onCategoryChoice('Хоррор')">Хоррор</div> -->
+    </div>
+    <div class="films">
+
+    </div>
+</section>
+</body>
+</html>
