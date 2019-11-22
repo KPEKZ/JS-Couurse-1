@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Киноучёт</title>
+    <link rel="stylesheet" href="style92.css">
+    <script src="index92.js"></script>
+    <script>
+        function onClick()
+        {
+            const films = getFilmsByCategory("Юмор");
+            for (let film of films)
+            {
+                const newEl = document.createElement("div");
+                newEl.classList.add("film");
+                newEl.innerText = film.name;
+                document.querySelector(".films").appendChild(newEl);
+            }
+        }
+
+    </script>
+</head>
+<body>
+<section>
+    <div class="categories">
+        <div class="category" onclick="onClick()">Юмор</div>
+        <div class="category">Хоррор</div>
+    </div>
+    <div class="films">
+       <!-- <div class="film">Один дома</div>
+        <div class="film">Один дома 2</div>
+        <div class="film"> Один дома 3</div>-->
+    </div>
+</section>
+</body>
+</html>
